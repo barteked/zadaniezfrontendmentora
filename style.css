@@ -12,6 +12,7 @@
 	--grey-700: hsl(0, 0%, 20%);
 	--grey-800: hsl(0, 0%, 12%);
 	--grey-900: hsl(0, 0%, 8%);
+    --rgb: hsl(235, 206, 206);
 }
 .image {
 	display: block;
@@ -42,7 +43,7 @@ body {
 	text-align: center;
 }
 .info_work {
-	color: rgb(235, 206, 206);
+	color: var(--rgb);
 	text-align: center;
 	font-size: 10px;
 }
