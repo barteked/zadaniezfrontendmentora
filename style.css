@@ -1,73 +1,73 @@
 * {
-box-sizing: border-box;
-font-family: "Inter", sans-serif;
-font-size: 14px;
-margin: 0;
-padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
 }
 
 :root {
-    --green: hsl(75, 94%, 57%);
-    --white: hsl(0, 0%, 100%);
-    --grey-700: hsl(0, 0%, 20%);
-    --grey-800: hsl(0, 0%, 12%);
-    --grey-900: hsl(0, 0%, 8%);
+	--green: hsl(75, 94%, 57%);
+	--white: hsl(0, 0%, 100%);
+	--grey-700: hsl(0, 0%, 20%);
+	--grey-800: hsl(0, 0%, 12%);
+	--grey-900: hsl(0, 0%, 8%);
 }
 .image {
-display: block;
-    border-radius: 100px;
+	display: block;
+	border-radius: 100px;
 
-    height: 70px;
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 15px;
-
+	height: 70px;
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 .gui {
-margin-top: 150px;
-margin-left: auto;
-margin-right: auto;
-width: 300px;
-background-color: var(--grey-700);
-border-radius: 5px;
-padding: 10px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	background-color: var(--grey-700);
+	border-radius: 5px;
+	padding: 10px;
 }
 body {
-    background-color: black;
-
+	background-color: black;
 }
 .name_city {
-font-size: 10px;
-color: var(--green);
-margin-bottom: 15px;
-text-align: center;
+	font-size: 10px;
+	color: var(--green);
+	margin-bottom: 15px;
+	text-align: center;
 }
 .info_work {
-    color: rgb(235, 206, 206);
-    text-align: center;
-font-size: 10px;
+	color: rgb(235, 206, 206);
+	text-align: center;
+	font-size: 10px;
 }
-.name {margin-bottom: 15px;
-text-align: center;
-color: var(--white);
-font-size: 19px;}
+.name {
+	margin-bottom: 15px;
+	text-align: center;
+	color: var(--white);
+	font-size: 19px;
+}
 
-.socialmedia {margin-bottom: 15px;
-text-align: center;
-margin-top: 15px;
-
+.socialmedia {
+	margin-bottom: 15px;
+	text-align: center;
+	margin-top: 15px;
 }
 a {
-    color: var(--white);
-    display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px; 
-  padding: 15px; 
-  background-color: #1e1e1e;
-  text-decoration: none;
-border-radius: 15px;    
-margin: 0px 20px 0px 20px;
-font-weight: bold;
+	color: var(--white);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	padding: 15px;
+	background-color: #1e1e1e;
+	text-decoration: none;
+	border-radius: 15px;
+	margin: 0px 20px 0px 20px;
+	font-weight: bold;
 }
